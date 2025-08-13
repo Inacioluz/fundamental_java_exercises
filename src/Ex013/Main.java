@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args){
         Scanner scr = new Scanner(System.in);
 
-        System.out.printf("Você é homem ou mulher 'M', 'H' ? ");
+        System.out.printf("Você é homem ou mulher 'H', 'M' ? ");
         char g = scr.next().toUpperCase().charAt(0);
 
         while(g != 'M' && g != 'H'){
